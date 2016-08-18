@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>** post test **</h2>
+<form action="postData" method="post">
+이름 : <input type="text" name="name" value="한국인"><br>
+주소1 : <input type="text" name="addr" value="서울시"><br>
+주소2 : <input type="text" name="addr" value="강남구 역삼동"><br>
+<br>
+<!-- 체크박스 -->
+현재가능한언어는? <br>
+<input type="checkbox" name="lan" value="C Language">c언어 <br>
+<input type="checkbox" name="lan" value="java">자바 <br>
+<input type="checkbox" name="lan" value="python">파이썬 <br>
+<br>
+<!-- 라디오 -->
+현재사용중인 os는?<br>
+<input type="radio" name="os" value="윈도우" checked="checked">윈도우&nbsp;&nbsp;
+<input type="radio" name="os" value="리눅스">리눅스&nbsp;&nbsp;
+<input type="radio" name="os" value="맥">맥<br>
+<br>
+<!-- 셀렉트 -->
+현재이용중인 교통수단?<br>
+<select name="tr"> <!-- multiple="multiple" 여러개선택 -->
+<option>버스</option>
+<option>전철</option>
+<option>택시</option>
+</select>
+<!-- 히든(안보임) -->
+<input type="hidden" name="edu" value="교육?">
+<p/>수다떨기<br>
+<textarea rows="5" cols="50" name="suda"></textarea>
+<br>
+<input type="submit" value="자료전송">
+</form>
+</body>
+</html>
